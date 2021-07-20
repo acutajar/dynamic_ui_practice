@@ -1,0 +1,90 @@
+/* Webpage banner menu  
+
+
+    <div class="menuContainer">
+      <div class="menu-open-button">
+        <div>Open dropdown 1</div>
+        <div class="dropdown-content">
+          <div class="dropdown-item">item 1</div>
+          <div class="dropdown-item">itefasdfasdfasdfasm 2</div>
+          <div class="dropdown-item">item 3</div>
+          <div class="dropdown-item">item 4</div>
+        </div>
+      </div>
+    </div>
+
+    */
+
+/* .menuContainer {
+  display: flex;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: slategrey;
+}
+
+.menu-open-button {
+  display: inline-block;
+  padding: 3px 8px 0px 8px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  max-height: 0px;
+  transition: max-height 0.2s ease-out;
+  overflow: hidden;
+}
+.menu-open-button:hover .dropdown-content {
+  max-height: 500px;
+  transition: max-height 0.3s ease-in;
+}
+
+.dropdown-item {
+  padding: 3px;
+}
+.dropdown-item:hover {
+  background-color: #ddd;
+} */
+
+/* mobile bottom nav bar */
+
+/* .bottom-navbar {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 8%;
+  grid-column-gap: 1px;
+  border: 1px solid black;
+}
+
+body {
+  margin: 0px;
+}
+.nav-item {
+  background-color: rgb(0, 128, 111);
+  color: #ffffff;
+  text-align: center;
+  padding: 9px;
+  align-self: center;
+  font-size: 24px;
+  font-weight: 500;
+} */
+
+.picture-container {
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+}
+
+.arrow {
+  padding: 50px;
+  width: 50px;
+  align-self: center;
+  font-size: 100px;
+}
